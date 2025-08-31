@@ -460,7 +460,7 @@ static const u8 sAftermathDescription[] = _(
 
 static const u8 sAnticipationDescription[] = _(
 	"User shudders if opponent\n"
-	"has super-effectve move.");
+	"has super-effective move.");
 
 static const u8 sForewarnDescription[] = _(
 	"Shows the opponent's\n"
@@ -719,7 +719,7 @@ static const u8 sBulletproofDescription[] = _(
 
 static const u8 sCompetitiveDescription[] = _(
 	"If user stats are reduced\n"
-	"Sp. Atk rises one stage.");
+	"Sp. Atk rises two stages.");
 
 static const u8 sStrongJawDescription[] = _(
 	"Increases power of biting\n"
@@ -835,7 +835,7 @@ static const u8 sSteelworkerDescription[] = _(
 	"power by 50%.");
 
 static const u8 sBerserkDescription[] = _(
-	"Sp. Atk rises two stages\n"
+	"Sp. Atk rises one stage\n"
 	"at half max HP or less.");
 
 static const u8 sSlushRushDescription[] = _(
@@ -1098,8 +1098,9 @@ static const u8 sWildFireDescription[] = _(
 	"one stage.");
 
 static const u8 sMiracleBlossomDescription[] = _(
-	"User and ally heals 1/8 max\n"
-	"HP at the end of every turn.");
+	"Both the user and ally heal\n"
+	"1/8 max HP at the end of\n"
+    "every turn.");
 
 static const u8 sScorchingHeartDescription[] = _(
 	"Fire moves increase in\n"
@@ -1119,7 +1120,8 @@ static const u8 sGardenerDescription[] = _(
 
 static const u8 sPricklyThornsDescription[] = _(
 	"Damages attackers who\n"
-	"make contact for 1/8 max HP.");
+	"make contact for 1/8\n"
+    "max HP.");
 
 static const u8 sAuraSenseDescription[] = _(
 	"User shudders if opponent\n"

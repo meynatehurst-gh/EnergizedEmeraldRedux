@@ -741,7 +741,7 @@ BattleFrontier_BattlePyramidLobby_Text_HintParalysis:
 
 BattleFrontier_BattlePyramidLobby_Text_HintPoison:
 	.string "I see a coil unravelling…\n"
-	.string "Revealing fangs and venom…"
+	.string "Revealing fangs and venom…\p"
 	.string "…And, I see your Pokémon suffering\n"
 	.string "from the effects of poison…$"
 
@@ -757,7 +757,7 @@ BattleFrontier_BattlePyramidLobby_Text_HintPPWaste:
 	.string "It is a curse…\p"
 	.string "…And, I see your Pokémon drained of\n"
 	.string "Power Points and having no recourse\l"
-	.string "but to use Struggle$"
+	.string "but to use Struggle.$"
 
 BattleFrontier_BattlePyramidLobby_Text_HintLevitate:
 	.string "I see Pokémon hovering airborne…\p"
