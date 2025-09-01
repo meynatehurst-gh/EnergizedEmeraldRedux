@@ -6453,6 +6453,7 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 mode, u16 evolutionItem, s
     u16 partnerSpecies;
     u16 partnerHeldItem;
     u8 partnerHoldEffect;
+    bool32 consumeItem = FALSE;
 
     if (tradePartner != NULL)
     {
@@ -6518,6 +6519,7 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 mode, u16 evolutionItem, s
                 RtcCalcLocalTime();
                 if ((gLocalTime.hours >= NIGHT_START || gLocalTime.hours < DAY_START) && heldItem == gEvolutionTable[species][i].param)
                 {
+                    consumeItem = TRUE;
                     targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 }
                 break;
@@ -6525,8 +6527,7 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 mode, u16 evolutionItem, s
                 RtcCalcLocalTime();
                 if (gLocalTime.hours >= DAY_START && gLocalTime.hours < NIGHT_START && heldItem == gEvolutionTable[species][i].param)
                 {
-                    heldItem = 0;
-                    SetMonData(mon, MON_DATA_HELD_ITEM, &heldItem);
+                    consumeItem = TRUE;
                     targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 }
                 break;
@@ -6772,6 +6773,12 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 mode, u16 evolutionItem, s
             }
         }
         break;
+    }
+
+    if (consumeItem) 
+    {
+        heldItem = ITEM_NONE;
+        SetMonData(mon, MON_DATA_HELD_ITEM, &heldItem);
     }
 
     return targetSpecies;
