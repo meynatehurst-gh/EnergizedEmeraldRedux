@@ -45,7 +45,7 @@ static const u8 sTileBitAttributes[] =
     [MB_ICE] = TILE_ATTRIBUTES(TRUE, FALSE, FALSE),
     [MB_SAND] = TILE_ATTRIBUTES(TRUE, FALSE, FALSE),
     [MB_SEAWEED] = TILE_ATTRIBUTES(TRUE, TRUE, TRUE),
-    [MB_UNUSED_23] = TILE_ATTRIBUTES(TRUE, FALSE, FALSE),
+    [MB_SAND_WITH_PROP] = TILE_ATTRIBUTES(TRUE, FALSE, FALSE),
     [MB_ASHGRASS] = TILE_ATTRIBUTES(TRUE, FALSE, TRUE),
     [MB_FOOTPRINTS] = TILE_ATTRIBUTES(TRUE, FALSE, TRUE),
     [MB_THIN_ICE] = TILE_ATTRIBUTES(TRUE, FALSE, FALSE),
@@ -305,9 +305,9 @@ bool8 MetatileBehavior_IsPokeGrass(u8 metatileBehavior)
         return FALSE;
 }
 
-bool8 MetatileBehavior_IsSandOrDeepSand(u8 metatileBehavior)
+bool8 MetatileBehavior_IsSandOrDeepSand(u8 metatileBehavior, bool8 battleTransition)
 {
-    if (metatileBehavior == MB_SAND || metatileBehavior == MB_DEEP_SAND)
+    if (metatileBehavior == MB_SAND || metatileBehavior == MB_DEEP_SAND || (metatileBehavior == MB_SAND_WITH_PROP && battleTransition))
         return TRUE;
     else
         return FALSE;

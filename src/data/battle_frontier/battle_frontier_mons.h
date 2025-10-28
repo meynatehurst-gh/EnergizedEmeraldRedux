@@ -3685,8 +3685,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
     },
     [FRONTIER_MON_UMBREON_1] = {
         .species = SPECIES_UMBREON,
-        .moves = {MOVE_CONFUSE_RAY, MOVE_TORMENT, MOVE_TAUNT, MOVE_FOUL_PLAY},
-        .item = ITEM_LEFTOVERS,
+        .moves = {MOVE_CONFUSE_RAY, MOVE_TORMENT, MOVE_REST, MOVE_FOUL_PLAY},
+        .item = ITEM_CHESTO_BERRY,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
         .nature = NATURE_BOLD
     },
@@ -4945,7 +4945,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
     },
     [FRONTIER_MON_WEEZING_GALARIAN_3] = {
         .species = SPECIES_WEEZING_GALARIAN,
-        .moves = {MOVE_STRANGE_STEAM, MOVE_FLAMETHROWER, MOVE_TAUNT, MOVE_GASTRO_ACID},
+        .moves = {MOVE_STRANGE_STEAM, MOVE_FLAMETHROWER, MOVE_TAUNT, MOVE_TOXIC},
         .item = ITEM_BLACK_SLUDGE,
         .evSpread = F_EV_SPREAD_HP | F_EV_SPREAD_DEFENSE,
         .nature = NATURE_BOLD

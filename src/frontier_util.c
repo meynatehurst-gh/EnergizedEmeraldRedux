@@ -193,7 +193,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
             },
             {
                 .species = SPECIES_METAGROSS,
-                .heldItem = ITEM_QUICK_CLAW,
+                .heldItem = ITEM_SITRUS_BERRY,
                 .fixedIV = MAX_PER_STAT_IVS,
                 .nature = NATURE_ADAMANT,
                 .evs = {252, 252, 6, 0, 0, 0},
@@ -205,7 +205,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
                 .fixedIV = MAX_PER_STAT_IVS,
                 .nature = NATURE_MODEST,
                 .evs = {252, 0, 252, 6, 0, 0},
-                .moves = {MOVE_THUNDERBOLT, MOVE_PSYCHIC, MOVE_CALM_MIND, MOVE_REST},
+                .moves = {MOVE_THUNDERBOLT, MOVE_MIST_BALL, MOVE_CALM_MIND, MOVE_REST},
             },
         },
     },
@@ -311,7 +311,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
                 .fixedIV = MAX_PER_STAT_IVS,
                 .nature = NATURE_ADAMANT,
                 .evs = {252, 252, 0, 0, 0, 6},
-                .moves = {MOVE_BLAZE_IMPACT, MOVE_SUPERPOWER, MOVE_WILL_O_WISP, MOVE_OVERHEAT},
+                .moves = {MOVE_BLAZE_IMPACT, MOVE_SUPERPOWER, MOVE_BODY_SLAM, MOVE_OVERHEAT},
             },
             {
                 .species = SPECIES_BRELOOM,
