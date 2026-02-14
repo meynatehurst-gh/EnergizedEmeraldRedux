@@ -17406,7 +17406,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_FAST,
         .eggGroup1 = EGG_GROUP_MINERAL,
         .eggGroup2 = EGG_GROUP_MINERAL,
-        .abilities = {ABILITY_PRANKSTER, ABILITY_MAGICIAN, ABILITY_FRISK},
+        .abilities = {ABILITY_LEVITATE, ABILITY_MAGICIAN, ABILITY_PRANKSTER},
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = TRUE,
     },
