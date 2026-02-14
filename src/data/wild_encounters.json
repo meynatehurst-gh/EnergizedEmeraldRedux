@@ -1910,37 +1910,37 @@
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_NINCADA"
               },
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_PARAS"
               },
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_NINCADA"
               },
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_PARAS"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_TOXEL"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_TOXEL"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_WHISMUR"
+                "species": "SPECIES_MIME_JR"
               },
               {
                 "min_level": 8,
@@ -1978,7 +1978,7 @@
               },
               {
                 "min_level": 7,
-                "max_level": 8,
+                "max_level": 9,
                 "species": "SPECIES_MAKUHITA"
               },
               {
@@ -1987,14 +1987,14 @@
                 "species": "SPECIES_ZUBAT"
               },
               {
-                "min_level": 8,
-                "max_level": 9,
-                "species": "SPECIES_MAKUHITA"
+                "min_level": 6,
+                "max_level": 7,
+                "species": "SPECIES_CRABRAWLER"
               },
               {
                 "min_level": 8,
                 "max_level": 9,
-                "species": "SPECIES_MEDITITE"
+                "species": "SPECIES_CRABRAWLER"
               },
               {
                 "min_level": 10,
@@ -2009,12 +2009,12 @@
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_GEODUDE"
+                "species": "SPECIES_SWINUB"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_GEODUDE"
+                "species": "SPECIES_DIGLETT_ALOLA"
               },
               {
                 "min_level": 14,
@@ -2178,12 +2178,12 @@
               {
                 "min_level": 9,
                 "max_level": 9,
-                "species": "SPECIES_MEDITITE"
+                "species": "SPECIES_DIGLETT_ALOLA"
               },
               {
                 "min_level": 10,
                 "max_level": 10,
-                "species": "SPECIES_MAKUHITA"
+                "species": "SPECIES_SWINUB"
               },
               {
                 "min_level": 11,
@@ -2552,7 +2552,7 @@
               {
                 "min_level": 10,
                 "max_level": 10,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_SWINUB"
               },
               {
                 "min_level": 11,
@@ -2562,7 +2562,7 @@
               {
                 "min_level": 10,
                 "max_level": 10,
-                "species": "SPECIES_ARON"
+                "species": "SPECIES_DIGLETT_ALOLA"
               },
               {
                 "min_level": 11,
@@ -2580,14 +2580,14 @@
                 "species": "SPECIES_MEDITITE"
               },
               {
-                "min_level": 10,
-                "max_level": 10,
-                "species": "SPECIES_SABLEYE"
+                "min_level": 7,
+                "max_level": 9,
+                "species": "SPECIES_DIGLETT_ALOLA"
               },
               {
-                "min_level": 11,
+                "min_level": 10,
                 "max_level": 11,
-                "species": "SPECIES_MAWILE"
+                "species": "SPECIES_DIGLETT_ALOLA"
               },
               {
                 "min_level": 10,
@@ -4775,42 +4775,42 @@
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_DIGLETT_ALOLA"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_MAKUHITA"
+                "species": "SPECIES_SANDSHREW_ALOLA"
               },
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_MAKUHITA"
+                "species": "SPECIES_SANDSHREW_ALOLA"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_DIGLETT_ALOLA"
               },
               {
                 "min_level": 9,
                 "max_level": 9,
-                "species": "SPECIES_MAKUHITA"
+                "species": "SPECIES_SANDSHREW_ALOLA"
               },
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_MEDITITE"
+                "species": "SPECIES_FERROSEED"
               },
               {
                 "min_level": 10,
                 "max_level": 10,
-                "species": "SPECIES_MAKUHITA"
+                "species": "SPECIES_SANDSHREW_ALOLA"
               },
               {
                 "min_level": 6,
                 "max_level": 10,
-                "species": "SPECIES_MEDITITE"
+                "species": "SPECIES_FERROSEED"
               },
               {
                 "min_level": 7,
@@ -4830,7 +4830,7 @@
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_MAKUHITA"
+                "species": "SPECIES_BELDUM"
               }
             ]
           }
