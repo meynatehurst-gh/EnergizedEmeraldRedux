@@ -1063,12 +1063,12 @@
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_NUMEL"
+                "species": "SPECIES_TYROGUE"
               },
               {
-                "min_level": 15,
+                "min_level": 14,
                 "max_level": 15,
-                "species": "SPECIES_KOFFING"
+                "species": "SPECIES_PONYTA"
               },
               {
                 "min_level": 17,
@@ -1076,24 +1076,24 @@
                 "species": "SPECIES_NUMEL"
               },
               {
-                "min_level": 17,
+                "min_level": 16,
                 "max_level": 17,
-                "species": "SPECIES_KOFFING"
+                "species": "SPECIES_PONYTA"
               },
               {
                 "min_level": 14,
                 "max_level": 14,
-                "species": "SPECIES_NUMEL"
+                "species": "SPECIES_TYROGUE"
               },
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_KOFFING"
+                "species": "SPECIES_MARILL"
               },
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_KOFFING"
+                "species": "SPECIES_MARILL"
               },
               {
                 "min_level": 22,
@@ -1112,7 +1112,7 @@
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_SPINDA"
+                "species": "SPECIES_SCRAGGY"
               },
               {
                 "min_level": 16,
@@ -1152,7 +1152,7 @@
               {
                 "min_level": 17,
                 "max_level": 17,
-                "species": "SPECIES_SPINDA"
+                "species": "SPECIES_KLEFKI"
               },
               {
                 "min_level": 18,
@@ -1162,7 +1162,7 @@
               {
                 "min_level": 18,
                 "max_level": 18,
-                "species": "SPECIES_SPINDA"
+                "species": "SPECIES_KLEFKI"
               },
               {
                 "min_level": 24,
