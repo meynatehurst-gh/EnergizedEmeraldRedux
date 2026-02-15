@@ -28548,10 +28548,10 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_PUMPKABOO_SMALL] =
     {
-        .baseHP        = 44,
+        .baseHP        = 39,
         .baseAttack    = 66,
         .baseDefense   = 70,
-        .baseSpeed     = 56,
+        .baseSpeed     = 61,
         .baseSpAttack  = 44,
         .baseSpDefense = 55,
         .type1 = TYPE_GHOST,
@@ -28571,30 +28571,6 @@ const struct BaseStats gBaseStats[] =
     },
 
     [SPECIES_PUMPKABOO_LARGE] =
-    {
-        .baseHP        = 54,
-        .baseAttack    = 66,
-        .baseDefense   = 70,
-        .baseSpeed     = 46,
-        .baseSpAttack  = 44,
-        .baseSpDefense = 55,
-        .type1 = TYPE_GHOST,
-        .type2 = TYPE_GRASS,
-        .catchRate = 120,
-        .expYield = 67,
-        .evYield_Defense   = 1,
-        .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = 20,
-        .friendship = 70,
-        .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroup1 = EGG_GROUP_AMORPHOUS,
-        .eggGroup2 = EGG_GROUP_AMORPHOUS,
-        .abilities = {ABILITY_PICKUP, ABILITY_FRISK, ABILITY_INSOMNIA},
-        .bodyColor = BODY_COLOR_BROWN,
-        .noFlip = FALSE,
-    },
-
-    [SPECIES_PUMPKABOO_SUPER] =
     {
         .baseHP        = 59,
         .baseAttack    = 66,
@@ -28618,12 +28594,36 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    [SPECIES_PUMPKABOO_SUPER] =
+    {
+        .baseHP        = 69,
+        .baseAttack    = 66,
+        .baseDefense   = 70,
+        .baseSpeed     = 31,
+        .baseSpAttack  = 44,
+        .baseSpDefense = 55,
+        .type1 = TYPE_GHOST,
+        .type2 = TYPE_GRASS,
+        .catchRate = 120,
+        .expYield = 67,
+        .evYield_Defense   = 1,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = 70,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroup1 = EGG_GROUP_AMORPHOUS,
+        .eggGroup2 = EGG_GROUP_AMORPHOUS,
+        .abilities = {ABILITY_PICKUP, ABILITY_FRISK, ABILITY_INSOMNIA},
+        .bodyColor = BODY_COLOR_BROWN,
+        .noFlip = FALSE,
+    },
+
     [SPECIES_GOURGEIST_SMALL] =
     {
-        .baseHP        = 55,
-        .baseAttack    = 85,
+        .baseHP        = 45,
+        .baseAttack    = 80,
         .baseDefense   = 122,
-        .baseSpeed     = 99,
+        .baseSpeed     = 114,
         .baseSpAttack  = 58,
         .baseSpDefense = 75,
         .type1 = TYPE_GHOST,
@@ -28644,10 +28644,10 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_GOURGEIST_LARGE] =
     {
-        .baseHP        = 75,
-        .baseAttack    = 95,
+        .baseHP        = 85,
+        .baseAttack    = 100,
         .baseDefense   = 122,
-        .baseSpeed     = 69,
+        .baseSpeed     = 54,
         .baseSpAttack  = 58,
         .baseSpDefense = 75,
         .type1 = TYPE_GHOST,
@@ -28668,10 +28668,10 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_GOURGEIST_SUPER] =
     {
-        .baseHP        = 85,
-        .baseAttack    = 100,
+        .baseHP        = 95,
+        .baseAttack    = 105,
         .baseDefense   = 122,
-        .baseSpeed     = 54,
+        .baseSpeed     = 39,
         .baseSpAttack  = 58,
         .baseSpDefense = 75,
         .type1 = TYPE_GHOST,
