@@ -2661,7 +2661,7 @@
               {
                 "min_level": 17,
                 "max_level": 17,
-                "species": "SPECIES_SLUGMA"
+                "species": "SPECIES_ROLYCOLY"
               },
               {
                 "min_level": 18,
@@ -2681,7 +2681,7 @@
               {
                 "min_level": 17,
                 "max_level": 16,
-                "species": "SPECIES_GRIMER"
+                "species": "SPECIES_ROGGENROLA"
               },
               {
                 "min_level": 17,
@@ -2699,9 +2699,9 @@
                 "species": "SPECIES_TORKOAL"
               },
               {
-                "min_level": 16,
-                "max_level": 16,
-                "species": "SPECIES_SLUGMA"
+                "min_level": 18,
+                "max_level": 18,
+                "species": "SPECIES_CARKOL"
               },
               {
                 "min_level": 24,
