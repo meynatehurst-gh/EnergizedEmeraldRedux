@@ -2879,12 +2879,12 @@
               {
                 "min_level": 21,
                 "max_level": 21,
-                "species": "SPECIES_NUMEL"
+                "species": "SPECIES_HOUNDOUR"
               },
               {
                 "min_level": 21,
                 "max_level": 21,
-                "species": "SPECIES_MACHOP"
+                "species": "SPECIES_MANKEY"
               },
               {
                 "min_level": 20,
@@ -2899,7 +2899,7 @@
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_MACHOP"
+                "species": "SPECIES_MANKEY"
               },
               {
                 "min_level": 21,
@@ -2914,17 +2914,17 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_NUMEL"
+                "species": "SPECIES_HOUNDOUR"
               },
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_SPOINK"
+                "species": "SPECIES_RIOLU"
               },
               {
-                "min_level": 22,
-                "max_level": 22,
-                "species": "SPECIES_NUMEL"
+                "min_level": 23,
+                "max_level": 23,
+                "species": "SPECIES_RIOLU"
               },
               {
                 "min_level": 27,
