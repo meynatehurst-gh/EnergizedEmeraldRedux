@@ -1181,12 +1181,12 @@
               {
                 "min_level": 15,
                 "max_level": 17,
-                "species": "SPECIES_SEEDOT"
+                "species": "SPECIES_SKORUPI"
               },
               {
                 "min_level": 15,
                 "max_level": 17,
-                "species": "SPECIES_LOTAD"
+                "species": "SPECIES_WOOPER"
               },
               {
                 "min_level": 15,
@@ -1211,12 +1211,12 @@
               {
                 "min_level": 18,
                 "max_level": 18,
-                "species": "SPECIES_SEVIPER"
+                "species": "SPECIES_WOOPER"
               },
               {
                 "min_level": 18,
                 "max_level": 18,
-                "species": "SPECIES_ZANGOOSE"
+                "species": "SPECIES_MISDREAVUS"
               },
               {
                 "min_level": 19,
