@@ -1778,12 +1778,12 @@ static const u16 sTypeEffectivenessTable[NUMBER_OF_MON_TYPES][NUMBER_OF_MON_TYPE
     {X(1.0), X(2.0), X(1.0), X(1.0), X(1.0), X(0.5), X(2.0), X(1.0), X(0.5), X(1.0), X(1.0), X(1.0), X(2.0), X(0.5), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0)}, // flying
     {X(1.0), X(1.0), X(1.0), X(0.5), X(0.5), X(0.5), X(1.0), X(0.5), X(0.0), X(1.0), X(1.0), X(1.0), X(2.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(2.0)}, // poison
     {X(1.0), X(1.0), X(0.0), X(2.0), X(1.0), X(2.0), X(0.5), X(1.0), X(2.0), X(1.0), X(2.0), X(1.0), X(0.5), X(2.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0)}, // ground
-    {X(1.0), X(0.5), X(2.0), X(1.0), X(0.5), X(1.0), X(2.0), X(1.0), X(0.5), X(1.0), X(2.0), X(1.0), X(1.0), X(1.0), X(1.0), X(2.0), X(1.0), X(1.0), X(1.0)}, // rock
+    {X(1.0), X(0.5), X(2.0), X(1.0), X(0.5), X(0.5), X(2.0), X(1.0), X(0.5), X(1.0), X(2.0), X(1.0), X(1.0), X(1.0), X(1.0), X(2.0), X(1.0), X(1.0), X(1.0)}, // rock
     {X(1.0), X(0.5), X(0.5), X(0.5), X(1.0), X(1.0), X(1.0), X(0.5), X(0.5), X(1.0), X(0.5), X(1.0), X(2.0), X(1.0), X(2.0), X(1.0), X(1.0), X(2.0), X(0.5)}, // bug
     #if B_STEEL_RESISTANCES >= GEN_6
-    {X(0.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(2.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(2.0), X(1.0), X(1.0), X(0.5), X(1.0)}, // ghost
+    {X(0.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(2.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(2.0), X(0.5), X(1.0), X(0.5), X(1.0)}, // ghost
     #else
-    {X(0.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(2.0), X(0.5), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(2.0), X(1.0), X(1.0), X(0.5), X(1.0)}, // ghost
+    {X(0.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(2.0), X(0.5), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(2.0), X(0.5), X(1.0), X(0.5), X(1.0)}, // ghost
     #endif
     {X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(2.0), X(1.0), X(1.0), X(0.5), X(1.0), X(0.5), X(0.5), X(1.0), X(0.5), X(1.0), X(2.0), X(1.0), X(1.0), X(2.0)}, // steel
     {X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0)}, // mystery
@@ -1792,14 +1792,14 @@ static const u16 sTypeEffectivenessTable[NUMBER_OF_MON_TYPES][NUMBER_OF_MON_TYPE
     {X(1.0), X(1.0), X(0.5), X(0.5), X(2.0), X(2.0), X(0.5), X(1.0), X(0.5), X(1.0), X(0.5), X(2.0), X(0.5), X(1.0), X(1.0), X(1.0), X(0.5), X(1.0), X(1.0)}, // grass
     {X(1.0), X(1.0), X(2.0), X(1.0), X(0.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(2.0), X(0.5), X(0.5), X(1.0), X(1.0), X(0.5), X(1.0), X(1.0)}, // electric
     {X(1.0), X(2.0), X(1.0), X(2.0), X(1.0), X(1.0), X(1.0), X(1.0), X(0.5), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(0.5), X(1.0), X(1.0), X(0.0), X(1.0)}, // psychic
-    {X(1.0), X(1.0), X(2.0), X(1.0), X(2.0), X(1.0), X(1.0), X(1.0), X(0.5), X(1.0), X(0.5), X(0.5), X(2.0), X(1.0), X(1.0), X(0.5), X(2.0), X(1.0), X(1.0)}, // ice
+    {X(1.0), X(1.0), X(2.0), X(1.0), X(2.0), X(1.0), X(1.0), X(1.0), X(0.5), X(1.0), X(0.5), X(0.5), X(2.0), X(1.0), X(1.0), X(0.0), X(2.0), X(1.0), X(1.0)}, // ice
     {X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(0.5), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(2.0), X(1.0), X(0.0)}, // dragon
     #if B_STEEL_RESISTANCES >= GEN_6
     {X(1.0), X(0.5), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(2.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(2.0), X(1.0), X(1.0), X(0.5), X(0.5)}, // dark
     #else
     {X(1.0), X(0.5), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(2.0), X(0.5), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(2.0), X(1.0), X(1.0), X(0.5), X(0.5)}, // dark
     #endif
-    {X(1.0), X(2.0), X(1.0), X(0.5), X(1.0), X(1.0), X(1.0), X(1.0), X(0.5), X(1.0), X(0.5), X(1.0), X(1.0), X(1.0), X(1.0), X(1.0), X(2.0), X(2.0), X(1.0)}, // fairy
+    {X(1.0), X(2.0), X(1.0), X(0.5), X(1.0), X(1.0), X(1.0), X(1.0), X(0.5), X(1.0), X(0.5), X(1.0), X(1.0), X(1.0), X(1.0), X(0.5), X(2.0), X(2.0), X(1.0)}, // fairy
 };
 
 #undef X
@@ -5584,6 +5584,20 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u8 special, u16 moveArg)
                             effect = 1;
                         }
                         break;
+                    case ABILITY_IMMUNITY:
+                        if (moveType == TYPE_POISON)
+                        {
+                            gLastUsedAbility = ABILITY_IMMUNITY;
+                            effect = 1;
+                        }                        
+                        break;                    
+                    case ABILITY_LIQUID_OOZE:
+                        if (moveType == TYPE_POISON)
+                        {
+                            gLastUsedAbility = ABILITY_LIQUID_OOZE;
+                            effect = 2, statId = STAT_SPATK;
+                        }                        
+                        break;
                     case ABILITY_WATER_ABSORB:
                         if (moveType == TYPE_WATER)
                         {
@@ -9030,8 +9044,8 @@ static const u16 sWeightToDamageTable[] =
     0xFFFF, 0xFFFF
 };
 
-static const u8 sSpeedDiffPowerTable[] = {40, 60, 80, 120, 150};
-static const u8 sHeatCrashPowerTable[] = {40, 40, 60, 80, 100, 120};
+static const u8 sSpeedDiffPowerTable[] = {20, 60, 100, 150, 200};
+static const u8 sHeatCrashPowerTable[] = {40, 60, 80, 100, 120, 150};
 static const u8 sTrumpCardPowerTable[] = {200, 80, 60, 50, 40};
 
 const struct TypePower gNaturalGiftTable[] =
@@ -9227,7 +9241,7 @@ static u16 CalcMoveBasePower(u16 move, u8 battlerAtk, u8 battlerDef)
         if (sWeightToDamageTable[i] != 0xFFFF)
             basePower = sWeightToDamageTable[i + 1];
         else
-            basePower = 120;
+            basePower = 150;
         break;
     case EFFECT_HEAT_CRASH:
         weight = GetBattlerWeight(battlerAtk) / GetBattlerWeight(battlerDef);
@@ -9304,7 +9318,7 @@ static u16 CalcMoveBasePower(u16 move, u8 battlerAtk, u8 battlerDef)
         break;
     case EFFECT_GRAV_APPLE:
         if (gFieldStatuses & STATUS_FIELD_GRAVITY)
-            MulModifier(&basePower, UQ_4_12(1.5));
+            basePower *= 2;
         break;
     case EFFECT_TERRAIN_PULSE:
         if ((gFieldStatuses & STATUS_FIELD_TERRAIN_ANY)
@@ -9358,11 +9372,11 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
             break;
         case ABILITY_FLARE_BOOST:
             if (gBattleMons[battlerAtk].status1 & STATUS1_BURN && IS_MOVE_SPECIAL(move))
-               MulModifier(&modifier, UQ_4_12(1.5));
+               MulModifier(&modifier, UQ_4_12(2.0));
             break;
         case ABILITY_TOXIC_BOOST:
             if (gBattleMons[battlerAtk].status1 & STATUS1_PSN_ANY && IS_MOVE_PHYSICAL(move))
-               MulModifier(&modifier, UQ_4_12(1.5));
+               MulModifier(&modifier, UQ_4_12(2.0));
             break;
         case ABILITY_RECKLESS:
             if (gBattleMoves[move].flags & FLAG_RECKLESS_BOOST)
@@ -9406,11 +9420,11 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
             break;
         case ABILITY_SWORDMASTER:
             if (gBattleMoves[move].flags & FLAG_SWORDMASTER_BOOST)
-               MulModifier(&modifier, UQ_4_12(1.25));
+               MulModifier(&modifier, UQ_4_12(1.5));
             break;
         case ABILITY_VOLUME_UP:
             if (gBattleMoves[move].flags & FLAG_SOUND)
-               MulModifier(&modifier, UQ_4_12(1.3));
+               MulModifier(&modifier, UQ_4_12(1.5));
             break;
         case ABILITY_LIQUID_VOICE:
             if (gBattleMoves[move].flags & FLAG_SOUND)
@@ -9482,7 +9496,7 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
             break;
         case ABILITY_TRANSISTOR:
             if (moveType == TYPE_ELECTRIC)
-                MulModifier(&modifier, UQ_4_12(1.5));
+                MulModifier(&modifier, UQ_4_12(1.3));
             break;
         case ABILITY_DRAGONS_MAW:
             if (moveType == TYPE_DRAGON)
@@ -9672,7 +9686,7 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
         #if B_KNOCK_OFF_DMG >= GEN_6
         if (gBattleMons[battlerDef].item != ITEM_NONE
             && CanBattlerGetOrLoseItem(battlerDef, gBattleMons[battlerDef].item))
-            MulModifier(&modifier, UQ_4_12(1.5));
+            MulModifier(&modifier, UQ_4_12(3.0));
         #endif
         break;
     }
@@ -9842,12 +9856,36 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
             if (moveType == TYPE_FIRE || moveType == TYPE_ICE)
                 MulModifier(&modifier, UQ_4_12(0.5));
             break;
+        case ABILITY_LEAF_GUARD:
+            if (moveType == TYPE_GRASS || moveType == TYPE_WATER || moveType == TYPE_ELECTRIC || moveType == TYPE_GROUND)
+                MulModifier(&modifier, UQ_4_12(0.5));
+            break;
+        case ABILITY_STEAM_ENGINE:
+            if (moveType == TYPE_FIRE || moveType == TYPE_WATER)
+                MulModifier(&modifier, UQ_4_12(0.5));
+            break;            
+        case ABILITY_JUSTIFIED:
+            if (moveType == TYPE_DARK)
+                MulModifier(&modifier, UQ_4_12(0.5));
+            break;
+        case ABILITY_BULLETPROOF:
+            if (moveType == TYPE_STEEL)
+                MulModifier(&modifier, UQ_4_12(0.5));
+            break;            
+        case ABILITY_WATER_COMPACTION:
+            if (moveType == TYPE_WATER)
+                MulModifier(&modifier, UQ_4_12(0.25));
+            break;            
+        case ABILITY_DAMP:
+            if (moveType == TYPE_FIRE)
+                MulModifier(&modifier, UQ_4_12(0.5));
+            break;                 
         case ABILITY_ICE_SCALES:
             if (IS_MOVE_SPECIAL(move))
                 MulModifier(&modifier, UQ_4_12(0.5));
             break;
         case ABILITY_EVERGREEN:
-            if (moveType == TYPE_ICE)
+            if (moveType == TYPE_GRASS || moveType == TYPE_ICE)
                 MulModifier(&modifier, UQ_4_12(0.5));
             break;
         }
@@ -10041,6 +10079,10 @@ static u32 CalcDefenseStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, 
         if (!usesDefStat)
             MulModifier(&modifier, UQ_4_12(1.5));
         break;
+    case HOLD_EFFECT_METAL_COAT:
+        if (usesDefStat)
+            MulModifier(&modifier, UQ_4_12(1.2));
+        break;
 #if B_SOUL_DEW_BOOST <= GEN_6
     case HOLD_EFFECT_SOUL_DEW:
         if ((gBattleMons[battlerDef].species == SPECIES_LATIAS || gBattleMons[battlerDef].species == SPECIES_LATIOS)
@@ -10056,14 +10098,14 @@ static u32 CalcDefenseStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, 
         && gBattleWeather & WEATHER_SANDSTORM && WEATHER_HAS_EFFECT && !usesDefStat)
         MulModifier(&modifier, UQ_4_12(1.5));
 
-    // hail sp.def boost for ice types
+    // hail def boost for ice types
      if ((IS_BATTLER_OF_TYPE(battlerDef, TYPE_ICE))
-        && gBattleWeather & WEATHER_HAIL_ANY && WEATHER_HAS_EFFECT && !usesDefStat)
+        && gBattleWeather & WEATHER_HAIL_ANY && WEATHER_HAS_EFFECT && usesDefStat)
         MulModifier(&modifier, UQ_4_12(1.5));
 
-    // hail def boost for Snow Cloak ability users
+    // hail sp.def boost for Snow Cloak ability users
     if (HasAbility(ABILITY_SNOW_CLOAK, abilities)
-        && WEATHER_HAS_EFFECT && gBattleWeather & WEATHER_HAIL_ANY && usesDefStat)
+        && WEATHER_HAS_EFFECT && gBattleWeather & WEATHER_HAIL_ANY && !usesDefStat)
         MulModifier(&modifier, UQ_4_12(1.5));
 
     // The defensive stats of a Player's Pokémon are boosted by x1.1 (+10%) if they have the 5th badge and 7th badges.
@@ -10215,7 +10257,7 @@ static u32 CalcFinalDmg(u32 dmg, u16 move, u8 battlerAtk, u8 battlerDef, u8 move
         break;
     case HOLD_EFFECT_EXPERT_BELT:
         if (typeEffectivenessModifier >= UQ_4_12(2.0))
-            MulModifier(&finalModifier, UQ_4_12(1.2));
+            MulModifier(&finalModifier, UQ_4_12(1.3));
         break;
     case HOLD_EFFECT_LIFE_ORB:
         MulModifier(&finalModifier, UQ_4_12(1.3));
