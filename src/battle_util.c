@@ -5633,6 +5633,20 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u8 special, u16 moveArg)
                             effect = 2, statId = STAT_SPATK;
                         }
                         break;
+                    case ABILITY_MAGMA_ARMOR:
+                        if (moveType == TYPE_WATER || moveType == TYPE_ICE)
+                        {
+                            gLastUsedAbility = ABILITY_MAGMA_ARMOR;
+                            effect = 2, statId = STAT_DEF;
+                        }
+                        break;
+                    case ABILITY_WATER_VEIL:
+                        if (moveType == TYPE_FIRE)
+                        {
+                            gLastUsedAbility = ABILITY_WATER_VEIL;
+                            effect = 2, statId = STAT_SPDEF;
+                        }
+                        break;                    
                     case ABILITY_SAP_SIPPER:
                         if (moveType == TYPE_GRASS)
                         {
