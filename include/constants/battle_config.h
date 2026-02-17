@@ -75,7 +75,7 @@
 
 // Exp and stat settings
 #define B_EXP_CATCH                 GEN_7 // In Gen6+, Pokémon get experience from catching.
-#define B_TRAINER_EXP_MULTIPLIER    GEN_7 // In Gen7+, trainer battles no longer give a 1.5 multiplier to EXP gain.
+#define B_TRAINER_EXP_MULTIPLIER    GEN_6 // In Gen7+, trainer battles no longer give a 1.5 multiplier to EXP gain.
 #define B_SPLIT_EXP                 GEN_5 // In Gen6+, all participating mon get full experience.
 #define B_SCALED_EXP                GEN_7 // In Gen5 and Gen7+, experience is weighted by level difference.
 #define B_PARALYSIS_SPEED           GEN_7 // In Gen7+, Speed is decreased by 50% instead of 75%.
@@ -152,12 +152,12 @@
 // Ability settings
 #define B_EXPANDED_ABILITY_NAMES    TRUE  // If TRUE, ability names are increased from 12 characters to 16 characters.
 #define B_ABILITY_WEATHER           GEN_7 // In Gen6+, ability-induced weather lasts 5 turns. Before, it lasted until the battle ended or until it was changed by a move or a different weather-affecting ability.
-#define B_GALE_WINGS                GEN_7 // In Gen7+ requires full HP to trigger.
+#define B_GALE_WINGS                GEN_6 // In Gen7+ requires full HP to trigger.
 #define B_STANCE_CHANGE_FAIL        GEN_7 // In Gen7+, Stance Change fails if the Pokémon is unable to use a move because of confusion, paralysis, etc. In Gen6, it doesn't.
 #define B_SHADOW_TAG_ESCAPE         GEN_7 // In Gen4+, if both sides have a Pokémon with Shadow Tag, all battlers can escape. Before, neither side could escape this situation.
 #define B_MOODY_ACC_EVASION         GEN_8 // In Gen8, Moody CANNOT raise Accuracy and Evasion anymore.
 #define B_FLASH_FIRE_FROZEN         GEN_7 // In Gen5+, Flash Fire can trigger even when frozen, when it couldn't before.
-#define B_SYNCHRONIZE_NATURE        GEN_7 // In Gen8, if a Pokémon with Synchronize is leading the party, it's 100% guaranteed that wild Pokémon will have the same ability, as opposed to 50% previously.
+#define B_SYNCHRONIZE_NATURE        GEN_8 // In Gen8, if a Pokémon with Synchronize is leading the party, it's 100% guaranteed that wild Pokémon will have the same ability, as opposed to 50% previously.
 #define B_SYNCHRONIZE_TOXIC         GEN_8 // In Gen5+, if a Pokémon with Synchronize is badly poisoned, the opponent will also become badly poisoned. Previously, the opponent would become regular poisoned.
 #define B_UPDATED_INTIMIDATE        GEN_8 // In Gen8, Intimidate doesn't work on opponents with the Inner Focus, Scrappy, Own Tempo or Oblivious abilities. It also activates Rattled.
 #define B_OBLIVIOUS_TAUNT           GEN_7 // In Gen6+, Pokémon with Oblivious can't be taunted.
@@ -169,7 +169,7 @@
 #define B_X_ITEMS_BUFF              GEN_7 // In Gen7+, the X Items raise a stat by 2 stages instead of 1.
 #define B_MENTAL_HERB               GEN_5 // In Gen5+, the Mental Herb cures Infatuation, Taunt, Encore, Torment, Heal Block, and Disable
 #define B_TRAINERS_KNOCK_OFF_ITEMS  TRUE  // If TRUE, trainers can steal/swap your items (non-berries are restored after battle). In vanilla games trainers cannot steal items.
-#define B_SOUL_DEW_BOOST            GEN_7 // In Gens3-6, Soul Dew boosts Lati@s' Sp. Atk and Sp. Def. In Gen7+ it boosts the power of their Psychic and Dragon type moves instead.
+#define B_SOUL_DEW_BOOST            GEN_6 // In Gens3-6, Soul Dew boosts Lati@s' Sp. Atk and Sp. Def. In Gen7+ it boosts the power of their Psychic and Dragon type moves instead.
 #define B_NET_BALL_MODIFIER         GEN_6 // In Gen7+, Net Ball's catch multiplier is x5 instead of x3.
 #define B_DIVE_BALL_MODIFIER        GEN_7 // In Gen4+, Dive Ball's effectiveness increases by when Surfing or Fishing.
 #define B_NEST_BALL_MODIFIER        GEN_7 // Nest Ball's formula varies depending on the Gen. See Cmd_handleballthrow.
