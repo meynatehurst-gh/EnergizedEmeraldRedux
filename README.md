@@ -1,4 +1,96 @@
-# Pokémon Energized Emerald
+# Pokémon Re-Energized Emerald
+
+## This is a WIP ROMhack. If you are reading this text, then know that many of the following features have not yet been implemented
+
+This is a "redux" version of LandOfChocolate's excellent Energized Emerald ROMhack. It adopts a design philosophy which builds upon and extends the changes existing in Energized Emerald, and adds more ideas from the remixer, a longtime fan of the the "Pokebilities" tier on Pokemon SHowdown.
+
+This remixed version of Energized Emerald does not seek to be a true clone of the Pokebilities ladder, and instead is intended to make concessions so as to improve the single-player experience.
+
+### Differences from Pokebilities:
+- Most "drawback abilities" have been either removed, or extremely reduced in distribution.
+  - This applies to many Weak Armor mons, such as Skarmory and Onix.
+  - It does not apply to Truant Slaking, as Truant is too much a part of Slaking's identity.
+- Abilities which increase variability, such as evasion-enhancing abilities, or random stat changes, have been removed.
+  - This was largely implemented by LandOfChocolate in the original Energized Emerald, such as by changing Sand Veil and Snow Cloak to provide defensive boosts, rather than evasive boosts.
+  - Tangling Feet has been removed from all obtainable mons.
+  - Moody has been removed from all obtainable mons.
+  - Anger Point will be reworked into Stamina, but for the attack stat instead of for defense.
+  - As a rare exception, Spinda retains "Unsteady" from Enegized Emerald. This is a flavor-based design decision, as Spinda is embraced as a gimmick Pokemon, and is not overpowered.
+- Land-based Pokemon whose animations grant them the appearance of levitating, or who are said to float in Pokemon lore, now (mostly) possess Levitate
+  - This is very intuitive in practice - if a mon floats or flies in the 3D games, and that "floating" is not merely symbolizing that the mon is swimming, then you may expect it to levitate and be immune to Ground moves.
+  - Energized Emerald included the majority of these new Levitate mons already, but more still have been added for Re-energized.
+  - This also functions as a mild nerf to Ground attacks.
+- A very small number of mons in Pokebilities are overpowered, even by the higher power level expected in Pokebilities. Several of these mons have had *some* of their abilities changed.
+  - Porygon-Z no longer receives its infamous trifecta of Adaptability, Download, and Analytic.
+  - Conkeldurr was a bit too much with all of Guts, Sheer Force, and Iron Fist.
+  - A few others have received minor ability nerfs, while still remaining reasonably faithful to their original gameplan.
+
+### Differences from Energized Emerald
+- The Mega Ring will become accessible to the player at a time in the story similar to that of ORAS. The remaining gameplay after accessing mega eveolution will be balanced accordingly.
+- Many moves which rendered mons powerful in Pokebilities which are not accessible until the post-game in Energized Emerald will now be accessible late in the story, but prior to the Elite 4.
+- A number of maps previously accessible only in the post-game are now accessible during the main story, in large part for the purpose of expanding the available pool of mons without making each route feel overcrowded.
+- A small number of new routes will be added, both for the purpose of expanding the pool of available mons, and for the purpose of fleshing out map progression further.
+- The challenge level will be increase from the "Vanilla+" Emerald of Energized Emerald to a midground between a difficulty hack and the base game. The goals are as follows:
+  - To an experienced player who is operating a normal playthrough, this will feel engaging, but not challenging.
+  - To a casual player, who has never played a difficulty hack, this will feel somewhat challenging, but not intimidatingly so.
+  - To an experienced player who is running a nuzzlocke, this game will feel just *slightly* challenging.
+  - To a player who is running a nuzzlocke with extra-difficult self-imposed rules, or to a player with little experience playing nuzzlock challenges, this game may be feel substantially challenging.
+- The prices of some PokeMart items will be adjusted, in order to reflect the fact that items cannot be used in trainer battles.
+- The experience curve will be adjusted, such that experience points will feel like more of a precious resource, similar to the pre-Generation 6 games.
+  - This will be done in order to enhance the value of sticking with the same team members, by increasing the trade-off of swapping them out for new catches.
+  - As this is not intended as a difficulty hack, level progression will be emphasized as one of the tangible measures of effort and progress the player puts into the game.
+ 
+### Differences from both Pokebilities and Energized Emerald
+- Energized Emergald was very limited in its stat changes. Re-energized is *somewhat* more liberal with stat changes.
+- Very, *very* few mons in the mid-speed and high-speed tiers have had any speed base stat adjustments. Your memorization of speed tiers may be safely re-used for Re-Energized Emerald.
+  - This does not apply to mons which are already slow. A larger number of slow mons with surprisingly disappointing bulk have had their bulk vs speed ratio min-maxxed a little further.
+- A number of mons with the "Hoenn Special" stat spread have traded one of their mixed offensive stats for a defensive stat buff.
+  - This includes some mons which didn't debut in Hoenn, such as Flareon, which trades its 95 base special attack for its 65 base HP.
+  - Whenever feasible, the speed stat was avoided when making such swaps.
+- Several mons who have terrible offensive stats on both sides have received modest min-maxxing into a preferred offensive stat, as a concession to help make these mons more enjoyable to use in a playthrough.
+  - An example of this is Probopass, which drains some of its attack stat in order to achieve an acceptable special attack stat to wield Flash Canon, Power Gem, Thunderbolt, and the like.
+- Whenever two Pokemon would have an overlapping role in such a stat change, concessions have been made in order to help differentiate the two.
+  - Cacturne and Shiftry were two Pokemon with the Hoenn Special.
+    - Cacturne has become a physically-based Grass/Dark mon, and remains slow,
+	- Shiftry has kepts its special attack, but swapped its physical attack and defense, and stays fast enough to take advantage of Chlorophyll.
+  - Victreebel, Vileplume, and Venusaur have all had overlapping roles since the first generation
+    - Venusaur leans into Chlorophyll, as the fastest of the three, and a mon who has been identified closely with Solar Beam since the series' conception.
+    - Vileplume trades out Chlorophyll (partly for lore reasons) to emphasize draining moves, with its design modeled after a parasitic plant.
+    - Victreebel swaps its special attack and speed, in order to emphasize its physical orientation, and its abilities now reflect the fact that its animations have it levitating.
+  - Crawdaunt already had a niche as a Choice Band attacker, particularly under Trick Room, but Kingler has been left by the wayside.
+    - Crawdaunt trades its special attack and special defense, to help it tank resisted Shadow Balls
+    - Kingler min-maxes some of its special attack for higher physical defense, and Crabhammer can now benefit from Sheer Force.
+- A small number of mons have received type changes, which it was difficult to think of how else to meaningfully help them stand out from other similar mons
+  - Politoed is now Water/Normal with Volume Up.
+  - Kantonian Ninetales is now Fire/Fairy, mirroring its Alolan form.
+  - Donphan updated to Ground/Fighting, influenced by its past paradox form.
+  - Altaria is now Dragon/Fairy, like its mega evolution.
+  - Blissey is now Normal/Fairy, in order to further differentiate it from Eviolite Chansey.
+- There are two types which have received type chart rebalancing
+  - Rock now resists itself. This doesn't mean much for the various Rock/Ground types, but it helps out some mons like Armaldo, Magcargo, or Aurorus
+  - Ice has gained resistances to Ghost, Fairy, and Water. It is now immune to itself.
+    - Ghost attacks had excessively good neutral coverage and needed a minor nerf.
+    - Ice resisted Fairy in the beta for X/Y. This resurrects that type relationship, while mildly nerfing the excellent Fairy type.
+    - Water attacks have excellent neutral coverage, and are common enough to give Ice types a useful defensive role in a playthrough.
+      - This partciular change could end up being controversial, and may potentially be reverted.
+      - The end goal is such that Ice types will feel similar to Fire or Grass - not an outright *bad* defensive type, but one which possesses substantial common weaknesses, which aren't quite fully compensated by the resistances.
+    - Immunity to Ice attacks helps nerf the already-excellent offensive prowess of Ice moves, while additionally providing a meaningul buff to any Ice types which did not previously resist Ice, like Abomasnow and Articuno.
+- Slightly fewer mons have extraneous weather abilities, especially Leaf Guard and Chlorophyll
+  - Some mons who have kept their weather abilities have received *additional* abilities which complement their weather-abusing identity. Examples include:
+  - Floatzel: Previously had just Swift Swim, but it now gets Hydration as well.
+  - Venusaur: Both Chlorophyll and the slightly-nerfed Solar Power
+  - Beartic: Already had both Slush Rush and Snow Veil, but it formerly had the non-complementary Swift Swim as well. Now it has the trifecta of Slush Rush, Snow Veil, and Ice Body.
+  - Hippowdon: It already had both Sand Stream and Sand Force, but it now gains Sand Veil
+- Slightly larger number of mons with weather-setting abilities are now available
+  - Pidgeot and Rotom-Fan are now the non-legendary setters of Strong Winds.
+  - Sunflora and Houndoom stand in as the non-legendary Desolate Land wielders.
+  - Golisopod and Lapras gain access to Primordial Sea
+  - Cacturne now gains Sand Stream
+  - Ludicolo is the new Drizzle user
+  - Centiskorch becomes the new Drought user
+
+
+## Original Energized Emerald Readme:
 
 Pokemon Energized Emerald is a revamp of Pokemon Emerald that offers an enhanced and expanded experience in gameplay, story, graphics and QoL whilst keeping with the themes of the original game. My changes aim to make the game more fun yet also providing a good fair challenge. It's intended to make an ultimate Pokemon Emerald experience and I've built it how I would want an ultimate Pokemon Emerald game to be. 
 
@@ -18,35 +110,35 @@ Please leave feedback on the Pokemon Energized Emerald Discord channel: https://
 
 # Versions
 
-v1.00 - 19/01/2023
-v1.01 - 22/01/2023
-v1.02 - 02/02/2023
-v1.03 - 09/02/2023
-v1.04 - 19/02/2023
-v1.0.5 - 24/02/2023
-v1.0.6 - 24/02/2023
-v1.0.7 - 25/02/2023
-v1.0.8 - 27/02/2023
-v1.0.9 - 03/03/2023
-v1.0.10 - 06/03/2023
-v1.0.11 - 08/03/2023
-v1.0.12 - 12/03/2023
-v1.0.13 - 15/03/2023
-v1.0.14 - 21/03/2023
-v1.0.15 - 28/03/2023
-v1.0.16 - 09/07/2023
-v1.0.17 - 18/07/2023
-v1.0.18 - 13/08/2023
-v1.0.19 - 21/08/2023
-v1.0.20 - 08/10/2023
-v1.0.21 - 27/11/2023
-v1.0.22 - 13/02/2024
-v1.0.23 - 01/06/2024
-v1.1.0 - 30/01/2025
-v1.1.1 - 21/02/2025
-v1.1.2 - 12/05/2025
-v1.1.3 - 16/06/2025
-v1.1.4 - xx/09/2025
+- v1.00 - 19/01/2023
+- v1.01 - 22/01/2023
+- v1.02 - 02/02/2023
+- v1.03 - 09/02/2023
+- v1.04 - 19/02/2023
+- v1.0.5 - 24/02/2023
+- v1.0.6 - 24/02/2023
+- v1.0.7 - 25/02/2023
+- v1.0.8 - 27/02/2023
+- v1.0.9 - 03/03/2023
+- v1.0.10 - 06/03/2023
+- v1.0.11 - 08/03/2023
+- v1.0.12 - 12/03/2023
+- v1.0.13 - 15/03/2023
+- v1.0.14 - 21/03/2023
+- v1.0.15 - 28/03/2023
+- v1.0.16 - 09/07/2023
+- v1.0.17 - 18/07/2023
+- v1.0.18 - 13/08/2023
+- v1.0.19 - 21/08/2023
+- v1.0.20 - 08/10/2023
+- v1.0.21 - 27/11/2023
+- v1.0.22 - 13/02/2024
+- v1.0.23 - 01/06/2024
+- v1.1.0 - 30/01/2025
+- v1.1.1 - 21/02/2025
+- v1.1.2 - 12/05/2025
+- v1.1.3 - 16/06/2025
+- v1.1.4 - xx/09/2025
 
 # Changelog
 
