@@ -17828,6 +17828,7 @@ const u32 gTMHMLearnsets[][4] =
     //                                         | TMHM(TM25_THUNDER)
     //                                         | TMHM(TM24_THUNDERBOLT)
     //                                         | TMHM(TM06_TOXIC),
+    //                                         | TMHM(TM51_LEECH_LIFE)
     //                                         TMHM2(TM68_GIGA_IMPACT)),
 
     // [SPECIES_EELEKTROSS]  = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
@@ -17854,7 +17855,9 @@ const u32 gTMHMLearnsets[][4] =
     //                                         | TMHM(TM25_THUNDER)
     //                                         | TMHM(TM24_THUNDERBOLT)
     //                                         | TMHM(TM06_TOXIC),
+    //                                         | TMHM(TM51_LEECH_LIFE)
     //                                         TMHM2(TM68_GIGA_IMPACT)),
+    //                                         | TMHM2(TM88_DRAIN_PUNCH)
 
     // [SPECIES_ELGYEM]      = TMHM_LEARNSET(TMHM(TM45_ATTRACT)
     //                                         | TMHM(TM04_CALM_MIND)
