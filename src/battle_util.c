@@ -9873,6 +9873,8 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
         case ABILITY_LEAF_GUARD:
             if (moveType == TYPE_GRASS || moveType == TYPE_WATER || moveType == TYPE_ELECTRIC || moveType == TYPE_GROUND)
                 MulModifier(&modifier, UQ_4_12(0.5));
+            else if (moveType == TYPE_FIRE || moveType == TYPE_BUG || moveType == TYPE_ICE || moveType == TYPE_FLYING || moveType == TYPE_POISON)
+                MulModifier(&modifier, UQ_4_12(2.0));
             break;          
         case ABILITY_STEAM_ENGINE:
             if (moveType == TYPE_FIRE || moveType == TYPE_WATER)
