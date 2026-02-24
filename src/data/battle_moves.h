@@ -4716,20 +4716,19 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_NEEDLE_ARM] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_4
-            .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_HIGH_CRIT | FLAG_SHEER_FORCE_BOOST,
+            .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST,
         #else
-            .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST | FLAG_HIGH_CRIT | FLAG_DMG_MINIMIZE,
+            .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST | FLAG_DMG_MINIMIZE,
         #endif
-        .effect = EFFECT_FLINCH_HIT // EFFECT_HIT_SET_ENTRY_HAZARD, Repurposed as Ceaseless Edge, but for Hidden Thorns
-        .power = 65,
+        .effect = EFFECT_FLINCH_HIT,
+        .power = 60,
         .type = TYPE_GRASS,
-        .accuracy = 90,
+        .accuracy = 100,
         .pp = 15,
         .secondaryEffectChance = 30,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .split = SPLIT_PHYSICAL,
-        // .argument = MOVE_EFFECT_HIDDEN_THORNS,
     },
 
     [MOVE_SLACK_OFF] =
@@ -11684,17 +11683,16 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_BARB_BARRAGE] =
     {
-        .effect = EFFECT_PLACEHOLDER // EFFECT_HIT_SET_ENTRY_HAZARD, Repurosed as Ceaseless Edge, but for Toxic Spikes
-        .power = 65,
+        .effect = EFFECT_PLACEHOLDER, // EFFECT_BARB_BARRAGE,
+        .power = 60,
         .type = TYPE_POISON,
-        .accuracy = 90,
+        .accuracy = 100,
         .pp = 15,
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
-        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_HIGH_CRIT,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
         .split = SPLIT_PHYSICAL,
-        // .argument = MOVE_EFFECT_TOXIC_SPIKES,
     },
 
     [MOVE_ESPER_WING] =
@@ -11713,7 +11711,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_BITTER_MALICE] =
     {
-        .effect = EFFECT_ATTACK_DOWN_HIT,, // EFFECT_BITTER_MALICE,
+        .effect = EFFECT_ATTACK_DOWN_HIT, // EFFECT_BITTER_MALICE,
         .power = 75,
         .type = TYPE_GHOST,
         .accuracy = 100,
@@ -11769,7 +11767,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_CEASELESS_EDGE] =
     {
-        .effect = EFFECT_PLACEHOLDER // EFFECT_HIT_SET_ENTRY_HAZARD, EFFECT_CEASELESS_EDGE,
+        .effect = EFFECT_PLACEHOLDER, // EFFECT_CEASELESS_EDGE,
         .power = 65,
         .type = TYPE_DARK,
         .accuracy = 90,
@@ -11777,9 +11775,8 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
-        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_HIGH_CRIT | FLAG_SWORDMASTER_BOOST,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
         .split = SPLIT_PHYSICAL,
-        // .argument = MOVE_EFFECT_SPIKES,
     },
 
     [MOVE_BLEAKWIND_STORM] =
