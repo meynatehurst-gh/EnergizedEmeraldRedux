@@ -22,8 +22,8 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
-      "x": 16,
-      "y": 9,
+      "x": 23,
+      "y": 13,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
       "movement_range_x": 3,
@@ -35,8 +35,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
-      "x": 5,
-      "y": 1,
+      "x": 12,
+      "y": 5,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -48,8 +48,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_OLD_MAN",
-      "x": 5,
-      "y": 8,
+      "x": 12,
+      "y": 12,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -61,8 +61,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_TWIN",
-      "x": 10,
-      "y": 13,
+      "x": 17,
+      "y": 17,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
       "movement_range_x": 0,
@@ -74,8 +74,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_HOT_SPRINGS_OLD_WOMAN",
-      "x": 4,
-      "y": 3,
+      "x": 11,
+      "y": 7,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_RIGHT",
       "movement_range_x": 0,
@@ -87,8 +87,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_HOT_SPRINGS_OLD_WOMAN",
-      "x": 5,
-      "y": 3,
+      "x": 12,
+      "y": 7,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_LEFT",
       "movement_range_x": 0,
@@ -101,7 +101,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_VAR_3",
       "x": 6,
-      "y": 16,
+      "y": 20,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -113,8 +113,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_VAR_0",
-      "x": 12,
-      "y": 15,
+      "x": 19,
+      "y": 19,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -126,8 +126,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_EXPERT_F",
-      "x": 4,
-      "y": 7,
+      "x": 11,
+      "y": 11,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 1,
@@ -139,8 +139,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_NUMEL",
-      "x": 13,
-      "y": 7,
+      "x": 20,
+      "y": 11,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
@@ -152,8 +152,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SWABLU",
-      "x": 13,
-      "y": 13,
+      "x": 20,
+      "y": 17,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
@@ -166,43 +166,43 @@
   ],
   "warp_events": [
     {
-      "x": 12,
-      "y": 15,
+      "x": 20,
+      "y": 19,
       "elevation": 0,
       "dest_map": "MAP_LAVARIDGE_TOWN_HERB_SHOP",
       "dest_warp_id": 0
     },
     {
       "x": 5,
-      "y": 15,
+      "y": 19,
       "elevation": 0,
       "dest_map": "MAP_LAVARIDGE_TOWN_GYM_1F",
       "dest_warp_id": 0
     },
     {
-      "x": 20,
-      "y": 5,
+      "x": 27,
+      "y": 9,
       "elevation": 0,
       "dest_map": "MAP_LAVARIDGE_TOWN_MART",
       "dest_warp_id": 0
     },
     {
-      "x": 9,
-      "y": 6,
+      "x": 16,
+      "y": 10,
       "elevation": 0,
       "dest_map": "MAP_LAVARIDGE_TOWN_POKEMON_CENTER_1F",
       "dest_warp_id": 0
     },
     {
-      "x": 16,
-      "y": 15,
+      "x": 24,
+      "y": 19,
       "elevation": 0,
       "dest_map": "MAP_LAVARIDGE_TOWN_HOUSE",
       "dest_warp_id": 0
     },
     {
-      "x": 9,
-      "y": 2,
+      "x": 16,
+      "y": 6,
       "elevation": 3,
       "dest_map": "MAP_LAVARIDGE_TOWN_POKEMON_CENTER_1F",
       "dest_warp_id": 3
@@ -211,8 +211,8 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 6,
-      "y": 3,
+      "x": 13,
+      "y": 7,
       "elevation": 3,
       "var": "0",
       "var_value": "0",
@@ -220,8 +220,8 @@
     },
     {
       "type": "trigger",
-      "x": 13,
-      "y": 4,
+      "x": 20,
+      "y": 8,
       "elevation": 3,
       "var": "0",
       "var_value": "0",
@@ -231,8 +231,8 @@
   "bg_events": [
     {
       "type": "sign",
-      "x": 14,
-      "y": 16,
+      "x": 22,
+      "y": 20,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "LavaridgeTown_EventScript_HerbShopSign"
@@ -240,55 +240,55 @@
     {
       "type": "sign",
       "x": 7,
-      "y": 15,
+      "y": 19,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "LavaridgeTown_EventScript_GymSign"
     },
     {
       "type": "sign",
-      "x": 22,
-      "y": 5,
+      "x": 29,
+      "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "Common_EventScript_ShowPokemartSign"
     },
     {
       "type": "sign",
-      "x": 20,
-      "y": 11,
+      "x": 18,
+      "y": 12,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "LavaridgeTown_EventScript_TownSign"
     },
     {
       "type": "sign",
-      "x": 10,
-      "y": 6,
+      "x": 17,
+      "y": 10,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "Common_EventScript_ShowPokemonCenterSign"
     },
     {
       "type": "sign",
-      "x": 21,
-      "y": 5,
+      "x": 28,
+      "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "Common_EventScript_ShowPokemartSign"
     },
     {
       "type": "sign",
-      "x": 11,
-      "y": 6,
+      "x": 18,
+      "y": 10,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "Common_EventScript_ShowPokemonCenterSign"
     },
     {
       "type": "hidden_item",
-      "x": 4,
-      "y": 5,
+      "x": 11,
+      "y": 9,
       "elevation": 3,
       "item": "ITEM_ICE_HEAL",
       "flag": "FLAG_HIDDEN_ITEM_LAVARIDGE_TOWN_ICE_HEAL"

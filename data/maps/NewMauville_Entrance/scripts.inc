@@ -21,6 +21,10 @@ NewMauville_Entrance_OnTransition:
 	setflag FLAG_LANDMARK_NEW_MAUVILLE
 	end
 
+NewMauville_Entrance_EventScript_WarningSign:
+	msgbox NewMauville_Entrance_EventScript_WarningSign, MSGBOX_SIGN
+	end
+
 NewMauville_Entrance_EventScript_Door::
 	lockall
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFastestUp
@@ -58,4 +62,8 @@ NewMauville_Entrance_Text_UseBasementKey:
 NewMauville_Entrance_Text_UsedBasementKey:
 	.string "{PLAYER} used the Basement Key.\p"
 	.string "The door opened!$"
-
+	
+NewMauville_Entrance_EventScript_WarningSign:
+	.string "NEW MAUVILLE\p"
+	.string "“Unauthorized entry\n"
+	.string "strictly prohibited”!$"
